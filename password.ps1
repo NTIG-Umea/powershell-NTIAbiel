@@ -1,4 +1,4 @@
-$characters = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()}{|ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+$characters = "abcdefghijklmnopqrstuvwxyz"
 $password = ""
 
 for ($i = 0; $i -lt 10; $i++) {
