@@ -1,4 +1,4 @@
-$users = Import-Csv userlist.csv | select *,username,mail,password
+$users = Import-Csv userlist.csv | Select-Object *,username,mail,password
 $characters = "abcdefghijklmnopqrstuvwxyz"
 
 foreach($user in $users) {
