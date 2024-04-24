@@ -1,1 +1,1 @@
-New-ADUser -Name "JohnnyAndersson" -GivenName "Johnny" -Surname "Andersson" -SamAccountName "JAndersson" -UserPrincipalName "Jon.And@gmail.com" -Path "OU=Abiel's anvandare,DC=walters,DC=labb" -AccountPassword (ConvertTo-SecureString "P@ssw0rd!" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Johnny Andersson" -GivenName "Johnny" -Surname "Andersson" -SamAccountName "JAndersson" -UserPrincipalName "Jon.And@gmail.com" -Path "OU=Abiel's anvandare,DC=walters,DC=labb" -AccountPassword (ConvertTo-SecureString "P@ssw0rd!" -AsPlainText -Force) -Enabled $true
